@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		613250541BFD79F000B41BE8 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613250531BFD79F000B41BE8 /* CategoryView.swift */; };
+		613250561BFD7DC500B41BE8 /* TemplatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613250551BFD7DC500B41BE8 /* TemplatesView.swift */; };
 		61BC4E451BFD73DD005A3BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BC4E441BFD73DD005A3BAF /* AppDelegate.swift */; };
-		61BC4E471BFD73DD005A3BAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BC4E461BFD73DD005A3BAF /* ViewController.swift */; };
 		61BC4E4A1BFD73DD005A3BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61BC4E481BFD73DD005A3BAF /* Main.storyboard */; };
 		61BC4E4D1BFD73DD005A3BAF /* Nyusankinmaite.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61BC4E4B1BFD73DD005A3BAF /* Nyusankinmaite.xcdatamodeld */; };
 		61BC4E4F1BFD73DD005A3BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61BC4E4E1BFD73DD005A3BAF /* Assets.xcassets */; };
 		61BC4E521BFD73DD005A3BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61BC4E501BFD73DD005A3BAF /* LaunchScreen.storyboard */; };
 		61BC4E5D1BFD73DD005A3BAF /* NyusankinmaiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BC4E5C1BFD73DD005A3BAF /* NyusankinmaiteTests.swift */; };
 		61BC4E681BFD73DD005A3BAF /* NyusankinmaiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BC4E671BFD73DD005A3BAF /* NyusankinmaiteUITests.swift */; };
+		61BC4E781BFD78EF005A3BAF /* StartMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BC4E771BFD78EF005A3BAF /* StartMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		613250531BFD79F000B41BE8 /* CategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		613250551BFD7DC500B41BE8 /* TemplatesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplatesView.swift; sourceTree = "<group>"; };
 		61BC4E411BFD73DD005A3BAF /* Nyusankinmaite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nyusankinmaite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61BC4E441BFD73DD005A3BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		61BC4E461BFD73DD005A3BAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		61BC4E491BFD73DD005A3BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		61BC4E4C1BFD73DD005A3BAF /* Nyusankinmaite.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nyusankinmaite.xcdatamodel; sourceTree = "<group>"; };
 		61BC4E4E1BFD73DD005A3BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		61BC4E631BFD73DD005A3BAF /* NyusankinmaiteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NyusankinmaiteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		61BC4E671BFD73DD005A3BAF /* NyusankinmaiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyusankinmaiteUITests.swift; sourceTree = "<group>"; };
 		61BC4E691BFD73DD005A3BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61BC4E771BFD78EF005A3BAF /* StartMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +104,9 @@
 			isa = PBXGroup;
 			children = (
 				61BC4E441BFD73DD005A3BAF /* AppDelegate.swift */,
-				61BC4E461BFD73DD005A3BAF /* ViewController.swift */,
+				61BC4E771BFD78EF005A3BAF /* StartMenuView.swift */,
+				613250531BFD79F000B41BE8 /* CategoryView.swift */,
+				613250551BFD7DC500B41BE8 /* TemplatesView.swift */,
 				61BC4E481BFD73DD005A3BAF /* Main.storyboard */,
 				61BC4E4E1BFD73DD005A3BAF /* Assets.xcassets */,
 				61BC4E501BFD73DD005A3BAF /* LaunchScreen.storyboard */,
@@ -259,9 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61BC4E471BFD73DD005A3BAF /* ViewController.swift in Sources */,
 				61BC4E4D1BFD73DD005A3BAF /* Nyusankinmaite.xcdatamodeld in Sources */,
 				61BC4E451BFD73DD005A3BAF /* AppDelegate.swift in Sources */,
+				61BC4E781BFD78EF005A3BAF /* StartMenuView.swift in Sources */,
+				613250541BFD79F000B41BE8 /* CategoryView.swift in Sources */,
+				613250561BFD7DC500B41BE8 /* TemplatesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +496,7 @@
 				61BC4E6E1BFD73DD005A3BAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61BC4E6F1BFD73DD005A3BAF /* Build configuration list for PBXNativeTarget "NyusankinmaiteTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +505,7 @@
 				61BC4E711BFD73DD005A3BAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61BC4E721BFD73DD005A3BAF /* Build configuration list for PBXNativeTarget "NyusankinmaiteUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +514,7 @@
 				61BC4E741BFD73DD005A3BAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

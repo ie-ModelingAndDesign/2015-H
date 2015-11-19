@@ -17,6 +17,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     // Override point for customization after application launch.
+    
+    // ViewControllerを生成する.
+    let myFirstViewController: StartMenuView = StartMenuView()
+    
+    // UIWindowを生成する.
+    self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+    
+    // rootViewControllerにNatigationControllerを設定する.
+    self.window?.rootViewController = myFirstViewController
+    
+    self.window?.makeKeyAndVisible()
+    
     return true
   }
 
