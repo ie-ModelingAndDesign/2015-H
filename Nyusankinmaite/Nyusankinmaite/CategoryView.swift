@@ -16,18 +16,25 @@ class CategoryView: UIViewController {
     // 背景色を設定.
     self.view.backgroundColor = UIColor.whiteColor()
     
+    // ボタンを作成.
+    let graduateButton: UIButton = UIButton(frame: CGRectMake(0,0,120,50))
+    graduateButton.backgroundColor = UIColor.redColor();
+    graduateButton.layer.masksToBounds = true
+    graduateButton.setTitle("卒業", forState: .Normal)
+    graduateButton.layer.cornerRadius = 20.0
+    graduateButton.layer.position = CGPoint(x: self.view.bounds.width/2 , y:(self.view.bounds.height/2)-20)
+    graduateButton.addTarget(self, action: "onClickgraduateButton:", forControlEvents: .TouchUpInside)
+    self.view.addSubview(graduateButton);
     
-    // Labelを作成.
-    let myLabel: UILabel = UILabel(frame: CGRectMake(0,0,200,50))
-    // Labelに文字を代入.
-    myLabel.text = "CategoryView"
-    // 文字の色を黒にする.
-    myLabel.textColor = UIColor.blackColor()
-    // 配置する座標を設定する.
-    myLabel.layer.position = CGPoint(x: self.view.bounds.width/2, y: self.view.bounds.height/2)
-    // ViewにLabelを追加.
-    self.view.addSubview(myLabel)
-    
+    // ボタンを作成.
+    let entranceButton: UIButton = UIButton(frame: CGRectMake(0,0,120,50))
+    entranceButton.backgroundColor = UIColor.redColor();
+    entranceButton.layer.masksToBounds = true
+    entranceButton.setTitle("入学", forState: .Normal)
+    entranceButton.layer.cornerRadius = 20.0
+    entranceButton.layer.position = CGPoint(x: self.view.bounds.width/2 , y:(self.view.bounds.height/2)+40)
+    entranceButton.addTarget(self, action: "onClickentranceButton:", forControlEvents: .TouchUpInside)
+    self.view.addSubview(graduateButton);
     
     // ボタンを作成.
     let backButton: UIButton = UIButton(frame: CGRectMake(0,0,120,50))
@@ -38,12 +45,43 @@ class CategoryView: UIViewController {
     backButton.layer.position = CGPoint(x: self.view.bounds.width/2 , y:self.view.bounds.height-50)
     backButton.addTarget(self, action: "onClickMyButton:", forControlEvents: .TouchUpInside)
     self.view.addSubview(backButton);
+    
+    // ボタンを追加する.
+    self.view.addSubview(entranceButton)
+    self.view.addSubview(backButton);
+
   }
   
   /*
   ボタンイベント.
   */
-  internal func onClickMyButton(sender: UIButton){
+    internal func onClickgraduateButton(sender: UIButton){
+        
+        // 遷移するViewを定義.
+        let myViewController: UIViewController = GraduateView()
+        
+        // アニメーションを設定.
+        myViewController.modalTransitionStyle = UIModalTransitionStyle.FlipHorizontal
+        
+        // Viewの移動.
+        self.presentViewController(myViewController, animated: true, completion: nil)
+    }
+    
+    internal func onClickentranceButton(sender: UIButton){
+        
+        // 遷移するViewを定義.
+        let myViewController: UIViewController = EntranceView()
+        
+        // アニメーションを設定.
+        myViewController.modalTransitionStyle = UIModalTransitionStyle.FlipHorizontal
+        
+        // Viewの移動.
+        self.presentViewController(myViewController, animated: true, completion: nil)
+    }
+
+    
+    
+    internal func onClickMyButton(sender: UIButton){
     
     // 遷移するViewを定義.
     let myViewController: UIViewController = StartMenuView()

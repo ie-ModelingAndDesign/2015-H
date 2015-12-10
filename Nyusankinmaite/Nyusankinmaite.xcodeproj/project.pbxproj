@@ -17,6 +17,8 @@
 		61BC4E5D1BFD73DD005A3BAF /* NyusankinmaiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BC4E5C1BFD73DD005A3BAF /* NyusankinmaiteTests.swift */; };
 		61BC4E681BFD73DD005A3BAF /* NyusankinmaiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BC4E671BFD73DD005A3BAF /* NyusankinmaiteUITests.swift */; };
 		61BC4E781BFD78EF005A3BAF /* StartMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BC4E771BFD78EF005A3BAF /* StartMenuView.swift */; };
+		719F38DF1C05E0E900332863 /* GraduateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719F38DE1C05E0E900332863 /* GraduateView.swift */; };
+		719F38E11C05E90100332863 /* EntranceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719F38E01C05E90100332863 /* EntranceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		61BC4E671BFD73DD005A3BAF /* NyusankinmaiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyusankinmaiteUITests.swift; sourceTree = "<group>"; };
 		61BC4E691BFD73DD005A3BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61BC4E771BFD78EF005A3BAF /* StartMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartMenuView.swift; sourceTree = "<group>"; };
+		719F38DE1C05E0E900332863 /* GraduateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraduateView.swift; sourceTree = "<group>"; };
+		719F38E01C05E90100332863 /* EntranceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntranceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				613250531BFD79F000B41BE8 /* CategoryView.swift */,
 				613250551BFD7DC500B41BE8 /* TemplatesView.swift */,
 				61BC4E481BFD73DD005A3BAF /* Main.storyboard */,
+				719F38DE1C05E0E900332863 /* GraduateView.swift */,
+				719F38E01C05E90100332863 /* EntranceView.swift */,
 				61BC4E4E1BFD73DD005A3BAF /* Assets.xcassets */,
 				61BC4E501BFD73DD005A3BAF /* LaunchScreen.storyboard */,
 				61BC4E531BFD73DD005A3BAF /* Info.plist */,
@@ -267,9 +273,11 @@
 			files = (
 				61BC4E4D1BFD73DD005A3BAF /* Nyusankinmaite.xcdatamodeld in Sources */,
 				61BC4E451BFD73DD005A3BAF /* AppDelegate.swift in Sources */,
+				719F38E11C05E90100332863 /* EntranceView.swift in Sources */,
 				61BC4E781BFD78EF005A3BAF /* StartMenuView.swift in Sources */,
 				613250541BFD79F000B41BE8 /* CategoryView.swift in Sources */,
 				613250561BFD7DC500B41BE8 /* TemplatesView.swift in Sources */,
+				719F38DF1C05E0E900332863 /* GraduateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
