@@ -7,11 +7,29 @@
 //
 
 import UIKit
+import RealmSwift
 
 class TestViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let realm = try! Realm() //アクセス
+        print(realm.configuration.path!)
+        
+        for i in 0..<100 {
+            let dog: Dog = Dog()
+            dog.id = i
+            dog.name = "poch" + String(i)
+            try! realm.write({
+                realm.add(dog)
+            })
+        }
+        
+        let dogs = realm.objects(Dog)
+        
+        for d in dogs {
+            print(d.name)
+        }
 
         // Do any additional setup after loading the view.
     }

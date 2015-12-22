@@ -7,3 +7,15 @@
 //
 
 import Foundation
+import RealmSwift
+
+class Dog: Object {
+    dynamic var id: Int = 0
+    dynamic var name: String = ""
+    dynamic var owner: Person?
+}
+
+class Person: Object {
+    dynamic var id: Int = 0
+    dynamic var name: String = ""
+}

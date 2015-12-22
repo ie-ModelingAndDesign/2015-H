@@ -17,16 +17,15 @@ class CategoryView: UIViewController {
     self.view.backgroundColor = UIColor.whiteColor()
     
     
-    // Labelを作成.
-    let myLabel: UILabel = UILabel(frame: CGRectMake(0,0,200,50))
-    // Labelに文字を代入.
-    myLabel.text = "CategoryView"
-    // 文字の色を黒にする.
-    myLabel.textColor = UIColor.blackColor()
-    // 配置する座標を設定する.
-    myLabel.layer.position = CGPoint(x: self.view.bounds.width/2, y: self.view.bounds.height/2)
-    // ViewにLabelを追加.
-    self.view.addSubview(myLabel)
+    let Button1: UIButton = UIButton(frame: CGRectMake(0,0,120,50))
+    Button1.backgroundColor = UIColor.redColor();
+    Button1.layer.masksToBounds = true
+    Button1.setTitle("喜び", forState: .Normal)
+    Button1.layer.cornerRadius = 10.0
+    Button1.layer.position = CGPoint(x: self.view.bounds.width/2 , y:(self.view.bounds.height/2)-20)
+    Button1.addTarget(self, action: "onClickMassageButton:", forControlEvents: .TouchUpInside)
+    self.view.addSubview(Button1);
+
     
     
     // ボタンを作成.
@@ -39,6 +38,18 @@ class CategoryView: UIViewController {
     backButton.addTarget(self, action: "onClickMyButton:", forControlEvents: .TouchUpInside)
     self.view.addSubview(backButton);
   }
+    internal func onClickMassageButton(sender: UIButton){
+        
+        // 遷移するViewを定義する.
+        let category: UIViewController = CopyView()
+        
+        // アニメーションを設定する.
+        category.modalTransitionStyle = UIModalTransitionStyle.FlipHorizontal
+        
+        // Viewの移動する.
+        self.presentViewController(category, animated: true, completion: nil)
+    }
+    
   
   /*
   ボタンイベント.
