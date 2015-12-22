@@ -22,8 +22,12 @@
 		61BC4E681BFD73DD005A3BAF /* NyusankinmaiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BC4E671BFD73DD005A3BAF /* NyusankinmaiteUITests.swift */; };
 		61BC4E781BFD78EF005A3BAF /* StartMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BC4E771BFD78EF005A3BAF /* StartMenuView.swift */; };
 <<<<<<< HEAD
+<<<<<<< HEAD
 		719F38DF1C05E0E900332863 /* GraduateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719F38DE1C05E0E900332863 /* GraduateView.swift */; };
 		719F38E11C05E90100332863 /* EntranceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719F38E01C05E90100332863 /* EntranceView.swift */; };
+=======
+		984AA02E018B9DAD5BF47989 /* Pods_Nyusankinmaite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F054B8E4381304C9839C22D /* Pods_Nyusankinmaite.framework */; };
+>>>>>>> saaya
 =======
 		984AA02E018B9DAD5BF47989 /* Pods_Nyusankinmaite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F054B8E4381304C9839C22D /* Pods_Nyusankinmaite.framework */; };
 >>>>>>> saaya
@@ -134,8 +138,12 @@
 				29AB39A51C22A31700247C70 /* RealmObjects.swift */,
 				61BC4E481BFD73DD005A3BAF /* Main.storyboard */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 				719F38DE1C05E0E900332863 /* GraduateView.swift */,
 				719F38E01C05E90100332863 /* EntranceView.swift */,
+=======
+				29C263A41C087C470091DDD2 /* CopyView.swift */,
+>>>>>>> saaya
 =======
 				29C263A41C087C470091DDD2 /* CopyView.swift */,
 >>>>>>> saaya
@@ -374,7 +382,11 @@
 				613250541BFD79F000B41BE8 /* CategoryView.swift in Sources */,
 				613250561BFD7DC500B41BE8 /* TemplatesView.swift in Sources */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 				719F38DF1C05E0E900332863 /* GraduateView.swift in Sources */,
+=======
+				29C263A51C087C470091DDD2 /* CopyView.swift in Sources */,
+>>>>>>> saaya
 =======
 				29C263A51C087C470091DDD2 /* CopyView.swift in Sources */,
 >>>>>>> saaya

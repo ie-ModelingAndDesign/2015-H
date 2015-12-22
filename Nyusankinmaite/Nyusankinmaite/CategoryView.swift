@@ -27,6 +27,7 @@ class CategoryView: UIViewController {
     self.view.addSubview(graduateButton);
     
 <<<<<<< HEAD
+<<<<<<< HEAD
     // ボタンを作成.
     let entranceButton: UIButton = UIButton(frame: CGRectMake(0,0,120,50))
     entranceButton.backgroundColor = UIColor.redColor();
@@ -37,6 +38,8 @@ class CategoryView: UIViewController {
     entranceButton.addTarget(self, action: "onClickentranceButton:", forControlEvents: .TouchUpInside)
     self.view.addSubview(graduateButton);
 =======
+=======
+>>>>>>> saaya
     let Button1: UIButton = UIButton(frame: CGRectMake(0,0,120,50))
     Button1.backgroundColor = UIColor.redColor();
     Button1.layer.masksToBounds = true
