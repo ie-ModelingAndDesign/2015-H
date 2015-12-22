@@ -26,6 +26,7 @@ class CategoryView: UIViewController {
     graduateButton.addTarget(self, action: "onClickgraduateButton:", forControlEvents: .TouchUpInside)
     self.view.addSubview(graduateButton);
     
+<<<<<<< HEAD
     // ボタンを作成.
     let entranceButton: UIButton = UIButton(frame: CGRectMake(0,0,120,50))
     entranceButton.backgroundColor = UIColor.redColor();
@@ -35,6 +36,18 @@ class CategoryView: UIViewController {
     entranceButton.layer.position = CGPoint(x: self.view.bounds.width/2 , y:(self.view.bounds.height/2)+40)
     entranceButton.addTarget(self, action: "onClickentranceButton:", forControlEvents: .TouchUpInside)
     self.view.addSubview(graduateButton);
+=======
+    let Button1: UIButton = UIButton(frame: CGRectMake(0,0,120,50))
+    Button1.backgroundColor = UIColor.redColor();
+    Button1.layer.masksToBounds = true
+    Button1.setTitle("喜び", forState: .Normal)
+    Button1.layer.cornerRadius = 10.0
+    Button1.layer.position = CGPoint(x: self.view.bounds.width/2 , y:(self.view.bounds.height/2)-20)
+    Button1.addTarget(self, action: "onClickMassageButton:", forControlEvents: .TouchUpInside)
+    self.view.addSubview(Button1);
+
+    
+>>>>>>> saaya
     
     // ボタンを作成.
     let backButton: UIButton = UIButton(frame: CGRectMake(0,0,120,50))
@@ -51,6 +64,18 @@ class CategoryView: UIViewController {
     self.view.addSubview(backButton);
 
   }
+    internal func onClickMassageButton(sender: UIButton){
+        
+        // 遷移するViewを定義する.
+        let category: UIViewController = CopyView()
+        
+        // アニメーションを設定する.
+        category.modalTransitionStyle = UIModalTransitionStyle.FlipHorizontal
+        
+        // Viewの移動する.
+        self.presentViewController(category, animated: true, completion: nil)
+    }
+    
   
   /*
   ボタンイベント.
