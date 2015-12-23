@@ -10,49 +10,24 @@ import UIKit
 
 class TemplatesView: UIViewController {
   
+  var leftBarButton: UIBarButtonItem!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    // 背景色を設定.
+    self.navigationItem.title = "テンプレート"
+    
+    leftBarButton = UIBarButtonItem(title: "< back", style: .Plain, target: self, action: "tappedLeftBarButton")
+    
+    self.navigationItem.leftBarButtonItem = leftBarButton
+    
     self.view.backgroundColor = UIColor.whiteColor()
-    
-    
-    
-    // Labelを作成.
-    let myLabel: UILabel = UILabel(frame: CGRectMake(0,0,200,50))
-    // Labelに文字を代入.
-    myLabel.text = "TemplatesView"
-    // 配置する座標を設定する.
-    myLabel.layer.position = CGPoint(x: self.view.bounds.width/2, y: self.view.bounds.height/2)
-    // ViewにLabelを追加.
-    self.view.addSubview(myLabel)
-    
-
-    
-    // ボタンを作成.
-    let backButton: UIButton = UIButton(frame: CGRectMake(0,0,120,50))
-    backButton.backgroundColor = UIColor.redColor();
-    backButton.layer.masksToBounds = true
-    backButton.setTitle("Back", forState: .Normal)
-    backButton.layer.cornerRadius = 20.0
-    backButton.layer.position = CGPoint(x: self.view.bounds.width/2 , y:self.view.bounds.height-50)
-    backButton.addTarget(self, action: "onClickMyButton:", forControlEvents: .TouchUpInside)
-    self.view.addSubview(backButton);
   }
   
-  /*
-  ボタンイベント.
-  */
-  internal func onClickMyButton(sender: UIButton){
-    
-    // 遷移するViewを定義.
-    let myViewController: UIViewController = StartMenuView()
-    
-    // アニメーションを設定.
-    myViewController.modalTransitionStyle = UIModalTransitionStyle.FlipHorizontal
-    
-    // Viewの移動.
-    self.presentViewController(myViewController, animated: true, completion: nil)
+  // 左ボタンをタップしたときのアクション
+  func tappedLeftBarButton() {
+    let topPage = StartMenuView()
+    self.navigationController?.pushViewController(topPage, animated: true)
   }
   
   override func didReceiveMemoryWarning() {

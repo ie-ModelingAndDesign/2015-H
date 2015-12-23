@@ -14,8 +14,40 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "15"
-            endingLineNumber = "15">
+            endingLineNumber = "15"
+            landmarkName = "Dog"
+            landmarkType = "3">
             <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nyusankinmaite.Dog.owner.setter : Swift.Optional&lt;Nyusankinmaite.Person&gt;"
+                  moduleName = "Nyusankinmaite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/RealmObjects.swift"
+                  timestampString = "472572052.834948"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nyusankinmaite.Dog.owner.materializeForSet : Swift.Optional&lt;Nyusankinmaite.Person&gt;"
+                  moduleName = "Nyusankinmaite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/RealmObjects.swift"
+                  timestampString = "472572052.835335"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
@@ -24,12 +56,12 @@
                   moduleName = "Nyusankinmaite"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/RealmObjects.swift"
-                  timestampString = "472559780.328638"
+                  timestampString = "472572052.835698"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "28">
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "92">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -39,12 +71,12 @@
                   moduleName = "Nyusankinmaite"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/RealmObjects.swift"
-                  timestampString = "472559780.328947"
+                  timestampString = "472572052.83607"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "32">
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "105">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -54,12 +86,12 @@
                   moduleName = "Nyusankinmaite"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/RealmObjects.swift"
-                  timestampString = "472559780.329202"
+                  timestampString = "472572052.836309"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "37">
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "114">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -69,12 +101,12 @@
                   moduleName = "Nyusankinmaite"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/RealmObjects.swift"
-                  timestampString = "472559780.329432"
+                  timestampString = "472572052.836576"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "18"
-                  endingLineNumber = "18"
-                  offsetFromSymbolStart = "37">
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "114">
                </Location>
             </Locations>
          </BreakpointContent>
