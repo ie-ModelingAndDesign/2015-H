@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Nyusankinmaite/RealmObjects.swift"
+            timestampString = "472558288.181059"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nyusankinmaite.Dog.init (Nyusankinmaite.Dog.Type)() -&gt; Nyusankinmaite.Dog"
+                  moduleName = "Nyusankinmaite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/RealmObjects.swift"
+                  timestampString = "472559780.328638"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nyusankinmaite.Dog.init (Nyusankinmaite.Dog.Type)(value : Swift.AnyObject) -&gt; Nyusankinmaite.Dog"
+                  moduleName = "Nyusankinmaite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/RealmObjects.swift"
+                  timestampString = "472559780.328947"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nyusankinmaite.Dog.init (Nyusankinmaite.Dog.Type)(realm : __ObjC.RLMRealm, schema : __ObjC.RLMObjectSchema) -&gt; Nyusankinmaite.Dog"
+                  moduleName = "Nyusankinmaite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/RealmObjects.swift"
+                  timestampString = "472559780.329202"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "37">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nyusankinmaite.Dog.init (Nyusankinmaite.Dog.Type)(value : Swift.AnyObject, schema : __ObjC.RLMSchema) -&gt; Nyusankinmaite.Dog"
+                  moduleName = "Nyusankinmaite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/RealmObjects.swift"
+                  timestampString = "472559780.329432"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "37">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

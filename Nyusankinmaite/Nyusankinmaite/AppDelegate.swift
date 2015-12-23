@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     // ViewControllerを生成する.
 //    let myFirstViewController: StartMenuView = StartMenuView()
-    let myFirstViewController: TestViewController = TestViewController()
+    let myFirstViewController: StartMenuView = StartMenuView()
     
     // UIWindowを生成する.
     self.window = UIWindow(frame: UIScreen.mainScreen().bounds)

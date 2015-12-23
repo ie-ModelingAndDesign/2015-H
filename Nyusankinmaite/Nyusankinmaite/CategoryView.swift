@@ -26,8 +26,6 @@ class CategoryView: UIViewController {
     graduateButton.addTarget(self, action: "onClickgraduateButton:", forControlEvents: .TouchUpInside)
     self.view.addSubview(graduateButton);
     
-<<<<<<< HEAD
-<<<<<<< HEAD
     // ボタンを作成.
     let entranceButton: UIButton = UIButton(frame: CGRectMake(0,0,120,50))
     entranceButton.backgroundColor = UIColor.redColor();
@@ -37,9 +35,7 @@ class CategoryView: UIViewController {
     entranceButton.layer.position = CGPoint(x: self.view.bounds.width/2 , y:(self.view.bounds.height/2)+40)
     entranceButton.addTarget(self, action: "onClickentranceButton:", forControlEvents: .TouchUpInside)
     self.view.addSubview(graduateButton);
-=======
-=======
->>>>>>> saaya
+
     let Button1: UIButton = UIButton(frame: CGRectMake(0,0,120,50))
     Button1.backgroundColor = UIColor.redColor();
     Button1.layer.masksToBounds = true
@@ -50,7 +46,7 @@ class CategoryView: UIViewController {
     self.view.addSubview(Button1);
 
     
->>>>>>> saaya
+//>>>>>>> saaya
     
     // ボタンを作成.
     let backButton: UIButton = UIButton(frame: CGRectMake(0,0,120,50))

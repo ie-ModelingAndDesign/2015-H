@@ -7,11 +7,6 @@
 //
 
 import Foundation
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> saaya
 import RealmSwift
 
 class Dog: Object {
@@ -24,7 +19,3 @@ class Person: Object {
     dynamic var id: Int = 0
     dynamic var name: String = ""
 }
-<<<<<<< HEAD
->>>>>>> Stashed changes
-=======
->>>>>>> saaya

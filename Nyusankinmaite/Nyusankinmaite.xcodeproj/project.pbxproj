@@ -13,6 +13,8 @@
 		29C263A51C087C470091DDD2 /* CopyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C263A41C087C470091DDD2 /* CopyView.swift */; };
 		613250541BFD79F000B41BE8 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613250531BFD79F000B41BE8 /* CategoryView.swift */; };
 		613250561BFD7DC500B41BE8 /* TemplatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613250551BFD7DC500B41BE8 /* TemplatesView.swift */; };
+		619E23391C2AAED000143087 /* EntranceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619E23371C2AAED000143087 /* EntranceView.swift */; };
+		619E233A1C2AAED000143087 /* GraduateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619E23381C2AAED000143087 /* GraduateView.swift */; };
 		61BC4E451BFD73DD005A3BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BC4E441BFD73DD005A3BAF /* AppDelegate.swift */; };
 		61BC4E4A1BFD73DD005A3BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61BC4E481BFD73DD005A3BAF /* Main.storyboard */; };
 		61BC4E4D1BFD73DD005A3BAF /* Nyusankinmaite.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61BC4E4B1BFD73DD005A3BAF /* Nyusankinmaite.xcdatamodeld */; };
@@ -21,16 +23,7 @@
 		61BC4E5D1BFD73DD005A3BAF /* NyusankinmaiteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BC4E5C1BFD73DD005A3BAF /* NyusankinmaiteTests.swift */; };
 		61BC4E681BFD73DD005A3BAF /* NyusankinmaiteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BC4E671BFD73DD005A3BAF /* NyusankinmaiteUITests.swift */; };
 		61BC4E781BFD78EF005A3BAF /* StartMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BC4E771BFD78EF005A3BAF /* StartMenuView.swift */; };
-<<<<<<< HEAD
-<<<<<<< HEAD
-		719F38DF1C05E0E900332863 /* GraduateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719F38DE1C05E0E900332863 /* GraduateView.swift */; };
-		719F38E11C05E90100332863 /* EntranceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719F38E01C05E90100332863 /* EntranceView.swift */; };
-=======
 		984AA02E018B9DAD5BF47989 /* Pods_Nyusankinmaite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F054B8E4381304C9839C22D /* Pods_Nyusankinmaite.framework */; };
->>>>>>> saaya
-=======
-		984AA02E018B9DAD5BF47989 /* Pods_Nyusankinmaite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F054B8E4381304C9839C22D /* Pods_Nyusankinmaite.framework */; };
->>>>>>> saaya
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +53,8 @@
 		5F054B8E4381304C9839C22D /* Pods_Nyusankinmaite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nyusankinmaite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		613250531BFD79F000B41BE8 /* CategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		613250551BFD7DC500B41BE8 /* TemplatesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplatesView.swift; sourceTree = "<group>"; };
+		619E23371C2AAED000143087 /* EntranceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntranceView.swift; sourceTree = "<group>"; };
+		619E23381C2AAED000143087 /* GraduateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraduateView.swift; sourceTree = "<group>"; };
 		61BC4E411BFD73DD005A3BAF /* Nyusankinmaite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nyusankinmaite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61BC4E441BFD73DD005A3BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61BC4E491BFD73DD005A3BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -74,8 +69,6 @@
 		61BC4E671BFD73DD005A3BAF /* NyusankinmaiteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyusankinmaiteUITests.swift; sourceTree = "<group>"; };
 		61BC4E691BFD73DD005A3BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61BC4E771BFD78EF005A3BAF /* StartMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartMenuView.swift; sourceTree = "<group>"; };
-		719F38DE1C05E0E900332863 /* GraduateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraduateView.swift; sourceTree = "<group>"; };
-		719F38E01C05E90100332863 /* EntranceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntranceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,20 +126,13 @@
 				61BC4E771BFD78EF005A3BAF /* StartMenuView.swift */,
 				613250531BFD79F000B41BE8 /* CategoryView.swift */,
 				613250551BFD7DC500B41BE8 /* TemplatesView.swift */,
+				619E23371C2AAED000143087 /* EntranceView.swift */,
+				619E23381C2AAED000143087 /* GraduateView.swift */,
 				29AB39A71C22B0CF00247C70 /* json.swift */,
 				29AB39A31C22A03800247C70 /* TestViewController.swift */,
 				29AB39A51C22A31700247C70 /* RealmObjects.swift */,
 				61BC4E481BFD73DD005A3BAF /* Main.storyboard */,
-<<<<<<< HEAD
-<<<<<<< HEAD
-				719F38DE1C05E0E900332863 /* GraduateView.swift */,
-				719F38E01C05E90100332863 /* EntranceView.swift */,
-=======
 				29C263A41C087C470091DDD2 /* CopyView.swift */,
->>>>>>> saaya
-=======
-				29C263A41C087C470091DDD2 /* CopyView.swift */,
->>>>>>> saaya
 				61BC4E4E1BFD73DD005A3BAF /* Assets.xcassets */,
 				61BC4E501BFD73DD005A3BAF /* LaunchScreen.storyboard */,
 				61BC4E531BFD73DD005A3BAF /* Info.plist */,
@@ -372,24 +358,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				619E233A1C2AAED000143087 /* GraduateView.swift in Sources */,
+				619E23391C2AAED000143087 /* EntranceView.swift in Sources */,
 				29AB39A61C22A31700247C70 /* RealmObjects.swift in Sources */,
 				29AB39A41C22A03800247C70 /* TestViewController.swift in Sources */,
 				29AB39A81C22B0CF00247C70 /* json.swift in Sources */,
 				61BC4E4D1BFD73DD005A3BAF /* Nyusankinmaite.xcdatamodeld in Sources */,
 				61BC4E451BFD73DD005A3BAF /* AppDelegate.swift in Sources */,
-				719F38E11C05E90100332863 /* EntranceView.swift in Sources */,
 				61BC4E781BFD78EF005A3BAF /* StartMenuView.swift in Sources */,
 				613250541BFD79F000B41BE8 /* CategoryView.swift in Sources */,
 				613250561BFD7DC500B41BE8 /* TemplatesView.swift in Sources */,
-<<<<<<< HEAD
-<<<<<<< HEAD
-				719F38DF1C05E0E900332863 /* GraduateView.swift in Sources */,
-=======
 				29C263A51C087C470091DDD2 /* CopyView.swift in Sources */,
->>>>>>> saaya
-=======
-				29C263A51C087C470091DDD2 /* CopyView.swift in Sources */,
->>>>>>> saaya
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,11 +7,6 @@
 //
 
 import Foundation
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> saaya
 import UIKit
 
 class CopyView: UIViewController, UITableViewDelegate, UITableViewDataSource {
@@ -108,9 +103,4 @@ class CopyView: UIViewController, UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     
-<<<<<<< HEAD
 }
->>>>>>> Stashed changes
-=======
-}
->>>>>>> saaya

@@ -7,24 +7,13 @@
 //
 
 import UIKit
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
 import RealmSwift
->>>>>>> Stashed changes
-=======
 import RealmSwift
->>>>>>> saaya
 
 class TestViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> saaya
         let realm = try! Realm() //アクセス
         print(realm.configuration.path!)
         
@@ -42,10 +31,6 @@ class TestViewController: UIViewController {
         for d in dogs {
             print(d.name)
         }
-<<<<<<< HEAD
->>>>>>> Stashed changes
-=======
->>>>>>> saaya
 
         // Do any additional setup after loading the view.
     }
