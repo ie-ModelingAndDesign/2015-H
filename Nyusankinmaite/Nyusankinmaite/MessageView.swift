@@ -6,20 +6,21 @@
 //  Copyright © 2015 Ryuki. All rights reserved.
 //
 
-protocol MessageDelegate{
-  func MessageDidFinished(MessageCategory: String)
-}
+
 
 
 import UIKit
 
 class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
   
-
+  // table の値
+  var myItems = ["aaa","bbb","ccc"]
   
-  var leftBarButton: UIBarButtonItem!
-  private var myItems: NSArray = ["test1","test2","test3"]
+  
   private var myTableView: UITableView!
+  
+  
+
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -50,7 +51,7 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
     self.view.addSubview(myTableView)
     
     
-    
+    // title を設定
     self.navigationItem.title = "メッセージ"
   }
   
@@ -71,6 +72,11 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
   */
   func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
     
+    let app:AppDelegate =
+    (UIApplication.sharedApplication().delegate as! AppDelegate)
+    myItems[0] = app.globalStrings01!
+
+    
     // 再利用するCellを取得する.
     let cell = tableView.dequeueReusableCellWithIdentifier("MyCell", forIndexPath: indexPath)
     
@@ -89,7 +95,7 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
     print("Num: \(indexPath.row)")
     print("Value: \(myItems[indexPath.row])")
   }
-  
+
   
   
   

@@ -7,16 +7,21 @@
 //
 import UIKit
 
+
+
 class CategoryView: UIViewController,UITableViewDelegate,UITableViewDataSource {
   
-  
   var leftBarButton: UIBarButtonItem!
+  
+  // table の設定
   private let myItems: NSArray = ["TEST1", "TEST2", "TEST3"]
   private var myTableView: UITableView!
+  
   
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    // 背景を white に設定
     self.view.backgroundColor = UIColor.whiteColor()
     
 
@@ -44,7 +49,7 @@ class CategoryView: UIViewController,UITableViewDelegate,UITableViewDataSource {
     self.view.addSubview(myTableView)
     
     
-    
+    // title を設定
     self.navigationItem.title = "カテゴリー"
   }
   
@@ -81,6 +86,9 @@ class CategoryView: UIViewController,UITableViewDelegate,UITableViewDataSource {
   */
   func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
     let Messagepage = MessageView()
+    let selCategory = "\(myItems[indexPath.row])"
+    let app:AppDelegate = (UIApplication.sharedApplication().delegate as! AppDelegate)
+    app.globalStrings01 = selCategory
     self.navigationController?.pushViewController(Messagepage, animated: true)
   }
   
