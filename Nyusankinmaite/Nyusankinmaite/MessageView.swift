@@ -1,17 +1,24 @@
 //
-//  CategoryView.swift
+//  MessageView.swift
 //  Nyusankinmaite
 //
-//  Created by Ryuki on 11/19/15.
+//  Created by Ryuki on 12/24/15.
 //  Copyright © 2015 Ryuki. All rights reserved.
 //
+
+protocol MessageDelegate{
+  func MessageDidFinished(MessageCategory: String)
+}
+
+
 import UIKit
 
-class CategoryView: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
   
+
   
   var leftBarButton: UIBarButtonItem!
-  private let myItems: NSArray = ["TEST1", "TEST2", "TEST3"]
+  private var myItems: NSArray = ["test1","test2","test3"]
   private var myTableView: UITableView!
   
   override func viewDidLoad() {
@@ -19,7 +26,6 @@ class CategoryView: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     self.view.backgroundColor = UIColor.whiteColor()
     
-
     
     // Status Barの高さを取得する.
     let barHeight: CGFloat = UIApplication.sharedApplication().statusBarFrame.size.height
@@ -45,7 +51,7 @@ class CategoryView: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     
     
-    self.navigationItem.title = "カテゴリー"
+    self.navigationItem.title = "メッセージ"
   }
   
   
@@ -80,14 +86,12 @@ class CategoryView: UIViewController,UITableViewDelegate,UITableViewDataSource {
   Cellが選択された際に呼び出されるデリゲートメソッド.
   */
   func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-    let Messagepage = MessageView()
-    self.navigationController?.pushViewController(Messagepage, animated: true)
+    print("Num: \(indexPath.row)")
+    print("Value: \(myItems[indexPath.row])")
   }
   
   
-
   
-
   
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()

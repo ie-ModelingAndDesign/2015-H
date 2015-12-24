@@ -14,6 +14,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
   
+  var SelectCategory: String = ""
+  
   
   var navigationController: UINavigationController?
 
