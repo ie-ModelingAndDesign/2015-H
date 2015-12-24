@@ -22,7 +22,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // Override point for customization after application launch.
     
     // ViewControllerを生成する.
-//    let myFirstViewController: StartMenuView = StartMenuView()
     let viewController: StartMenuView = StartMenuView()
     
     
