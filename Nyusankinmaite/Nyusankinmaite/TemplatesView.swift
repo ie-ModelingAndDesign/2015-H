@@ -17,18 +17,10 @@ class TemplatesView: UIViewController {
     
     self.navigationItem.title = "テンプレート"
     
-    leftBarButton = UIBarButtonItem(title: "< back", style: .Plain, target: self, action: "tappedLeftBarButton")
-    
-    self.navigationItem.leftBarButtonItem = leftBarButton
-    
     self.view.backgroundColor = UIColor.whiteColor()
   }
   
-  // 左ボタンをタップしたときのアクション
-  func tappedLeftBarButton() {
-    let topPage = StartMenuView()
-    self.navigationController?.pushViewController(topPage, animated: true)
-  }
+
   
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()

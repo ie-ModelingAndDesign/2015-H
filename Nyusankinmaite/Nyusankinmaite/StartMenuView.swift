@@ -10,9 +10,7 @@ import UIKit
 
 class StartMenuView: UIViewController {
   
-  // BarButton
-  var leftBarButton: UIBarButtonItem!
-  var rightBarButton: UIBarButtonItem!
+  
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -30,7 +28,7 @@ class StartMenuView: UIViewController {
     Button1.setTitle("メッセージ", forState: .Normal)
     Button1.layer.cornerRadius = 10.0
     Button1.layer.position = CGPoint(x: self.view.bounds.width/2 , y:(self.view.bounds.height/2)-20)
-    Button1.addTarget(self, action: "onClickMassageButton:", forControlEvents: .TouchUpInside)
+    Button1.addTarget(self, action: "onClickButton:", forControlEvents: .TouchUpInside)
     self.view.addSubview(Button1);
     
     
@@ -41,28 +39,33 @@ class StartMenuView: UIViewController {
     Button2.layer.cornerRadius = 10.0
     
     Button2.layer.position = CGPoint(x: self.view.bounds.width/2 , y:(self.view.bounds.height/2)+40)
-    Button2.addTarget(self, action: "onClickTemplatesButton:", forControlEvents: .TouchUpInside)
+    Button2.addTarget(self, action: "onClickButton:", forControlEvents: .TouchUpInside)
+    
+    // add tag
+    Button1.tag = 1
+    Button2.tag = 2
     
     // ボタンを追加する.
     self.view.addSubview(Button2);
   }
   
-  internal func onClickMassageButton(sender: UIButton){
+  internal func onClickButton(sender: UIButton){
     
-    let Categorypage = CategoryView()
-    self.navigationController?.pushViewController(Categorypage, animated: true)
+    switch(sender.tag){
+    
+      case 1:
+        let Categorypage = CategoryView()
+        self.navigationController?.pushViewController(Categorypage, animated: true)
+    
+      case 2:
+        let Templatepage = TemplatesView()
+        self.navigationController?.pushViewController(Templatepage, animated: true)
+      
+      default:
+        print("error")
+    }
   }
   
-  internal func onClickTemplatesButton(sender: UIButton){
-    
-    let Templatepage = TemplatesView()
-    self.navigationController?.pushViewController(Templatepage, animated: true)
-  }
-  
-  
-  
-  
-
   
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
