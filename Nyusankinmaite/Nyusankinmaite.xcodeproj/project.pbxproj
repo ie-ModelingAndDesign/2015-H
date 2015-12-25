@@ -11,6 +11,7 @@
 		29AB39A61C22A31700247C70 /* RealmObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AB39A51C22A31700247C70 /* RealmObjects.swift */; };
 		29AB39A81C22B0CF00247C70 /* json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AB39A71C22B0CF00247C70 /* json.swift */; };
 		29C263A51C087C470091DDD2 /* CopyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C263A41C087C470091DDD2 /* CopyView.swift */; };
+		61177E861C2C2A0100631264 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61177E851C2C2A0100631264 /* MessageView.swift */; };
 		613250541BFD79F000B41BE8 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613250531BFD79F000B41BE8 /* CategoryView.swift */; };
 		613250561BFD7DC500B41BE8 /* TemplatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613250551BFD7DC500B41BE8 /* TemplatesView.swift */; };
 		619E23391C2AAED000143087 /* EntranceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619E23371C2AAED000143087 /* EntranceView.swift */; };
@@ -51,6 +52,7 @@
 		29C263A41C087C470091DDD2 /* CopyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopyView.swift; sourceTree = "<group>"; };
 		5B4A24DB504CEFE1071DEEEB /* Pods-Nyusankinmaite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nyusankinmaite.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nyusankinmaite/Pods-Nyusankinmaite.release.xcconfig"; sourceTree = "<group>"; };
 		5F054B8E4381304C9839C22D /* Pods_Nyusankinmaite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nyusankinmaite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61177E851C2C2A0100631264 /* MessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		613250531BFD79F000B41BE8 /* CategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		613250551BFD7DC500B41BE8 /* TemplatesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemplatesView.swift; sourceTree = "<group>"; };
 		619E23371C2AAED000143087 /* EntranceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntranceView.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		61BC4E431BFD73DD005A3BAF /* Nyusankinmaite */ = {
 			isa = PBXGroup;
 			children = (
+				61177E851C2C2A0100631264 /* MessageView.swift */,
 				61BC4E441BFD73DD005A3BAF /* AppDelegate.swift */,
 				61BC4E771BFD78EF005A3BAF /* StartMenuView.swift */,
 				613250531BFD79F000B41BE8 /* CategoryView.swift */,
@@ -358,6 +361,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61177E861C2C2A0100631264 /* MessageView.swift in Sources */,
 				619E233A1C2AAED000143087 /* GraduateView.swift in Sources */,
 				619E23391C2AAED000143087 /* EntranceView.swift in Sources */,
 				29AB39A61C22A31700247C70 /* RealmObjects.swift in Sources */,

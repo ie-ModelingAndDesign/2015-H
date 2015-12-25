@@ -1,30 +1,32 @@
 //
-//  CategoryView.swift
+//  MessageView.swift
 //  Nyusankinmaite
 //
-//  Created by Ryuki on 11/19/15.
+//  Created by Ryuki on 12/24/15.
 //  Copyright © 2015 Ryuki. All rights reserved.
 //
+
+
+
+
 import UIKit
 
-
-
-class CategoryView: UIViewController,UITableViewDelegate,UITableViewDataSource {
+class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
   
-  var leftBarButton: UIBarButtonItem!
+  // table の値
+  var myItems = ["aaa","bbb","ccc"]
   
-  // table の設定
-  private let myItems: NSArray = ["TEST1", "TEST2", "TEST3"]
+  
   private var myTableView: UITableView!
   
+  
+
   
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    // 背景を white に設定
     self.view.backgroundColor = UIColor.whiteColor()
     
-
     
     // Status Barの高さを取得する.
     let barHeight: CGFloat = UIApplication.sharedApplication().statusBarFrame.size.height
@@ -50,7 +52,7 @@ class CategoryView: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     
     // title を設定
-    self.navigationItem.title = "カテゴリー"
+    self.navigationItem.title = "メッセージ"
   }
   
   
@@ -70,6 +72,11 @@ class CategoryView: UIViewController,UITableViewDelegate,UITableViewDataSource {
   */
   func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
     
+    let app:AppDelegate =
+    (UIApplication.sharedApplication().delegate as! AppDelegate)
+    myItems[0] = app.globalStrings01!
+
+    
     // 再利用するCellを取得する.
     let cell = tableView.dequeueReusableCellWithIdentifier("MyCell", forIndexPath: indexPath)
     
@@ -85,17 +92,12 @@ class CategoryView: UIViewController,UITableViewDelegate,UITableViewDataSource {
   Cellが選択された際に呼び出されるデリゲートメソッド.
   */
   func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-    let Messagepage = MessageView()
-    let selCategory = "\(myItems[indexPath.row])"
-    let app:AppDelegate = (UIApplication.sharedApplication().delegate as! AppDelegate)
-    app.globalStrings01 = selCategory
-    self.navigationController?.pushViewController(Messagepage, animated: true)
+    print("Num: \(indexPath.row)")
+    print("Value: \(myItems[indexPath.row])")
   }
-  
-  
 
   
-
+  
   
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
