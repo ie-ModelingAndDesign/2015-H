@@ -13,7 +13,7 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
-  
+  var category : Int = 0
   var navigationController: UINavigationController?
   
   var globalStrings01:String? = nil

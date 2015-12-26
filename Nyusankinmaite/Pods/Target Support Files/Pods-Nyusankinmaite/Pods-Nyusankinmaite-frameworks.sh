@@ -86,8 +86,10 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-Nyusankinmaite/Realm.framework"
   install_framework "Pods-Nyusankinmaite/RealmSwift.framework"
+  install_framework "Pods-Nyusankinmaite/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-Nyusankinmaite/Realm.framework"
   install_framework "Pods-Nyusankinmaite/RealmSwift.framework"
+  install_framework "Pods-Nyusankinmaite/SwiftyJSON.framework"
 fi

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29070F661C2ED3AB00DD9711 /* ImportDates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29070F651C2ED3AB00DD9711 /* ImportDates.swift */; };
+		29070F681C2ED3E300DD9711 /* Word.json in Resources */ = {isa = PBXBuildFile; fileRef = 29070F671C2ED3E300DD9711 /* Word.json */; };
 		29AB39A41C22A03800247C70 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AB39A31C22A03800247C70 /* TestViewController.swift */; };
 		29AB39A61C22A31700247C70 /* RealmObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AB39A51C22A31700247C70 /* RealmObjects.swift */; };
 		29AB39A81C22B0CF00247C70 /* json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AB39A71C22B0CF00247C70 /* json.swift */; };
@@ -46,6 +48,8 @@
 
 /* Begin PBXFileReference section */
 		0BDB84AD4675C33A170F8F7B /* Pods-Nyusankinmaite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nyusankinmaite.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nyusankinmaite/Pods-Nyusankinmaite.debug.xcconfig"; sourceTree = "<group>"; };
+		29070F651C2ED3AB00DD9711 /* ImportDates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportDates.swift; sourceTree = "<group>"; };
+		29070F671C2ED3E300DD9711 /* Word.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Word.json; sourceTree = "<group>"; };
 		29AB39A31C22A03800247C70 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		29AB39A51C22A31700247C70 /* RealmObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmObjects.swift; sourceTree = "<group>"; };
 		29AB39A71C22B0CF00247C70 /* json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = json.swift; sourceTree = "<group>"; };
@@ -125,7 +129,9 @@
 			isa = PBXGroup;
 			children = (
 				61177E851C2C2A0100631264 /* MessageView.swift */,
+				29070F651C2ED3AB00DD9711 /* ImportDates.swift */,
 				61BC4E441BFD73DD005A3BAF /* AppDelegate.swift */,
+				29070F671C2ED3E300DD9711 /* Word.json */,
 				61BC4E771BFD78EF005A3BAF /* StartMenuView.swift */,
 				613250531BFD79F000B41BE8 /* CategoryView.swift */,
 				613250551BFD7DC500B41BE8 /* TemplatesView.swift */,
@@ -287,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				61BC4E521BFD73DD005A3BAF /* LaunchScreen.storyboard in Resources */,
+				29070F681C2ED3E300DD9711 /* Word.json in Resources */,
 				61BC4E4F1BFD73DD005A3BAF /* Assets.xcassets in Resources */,
 				61BC4E4A1BFD73DD005A3BAF /* Main.storyboard in Resources */,
 			);
@@ -363,6 +370,7 @@
 			files = (
 				61177E861C2C2A0100631264 /* MessageView.swift in Sources */,
 				619E233A1C2AAED000143087 /* GraduateView.swift in Sources */,
+				29070F661C2ED3AB00DD9711 /* ImportDates.swift in Sources */,
 				619E23391C2AAED000143087 /* EntranceView.swift in Sources */,
 				29AB39A61C22A31700247C70 /* RealmObjects.swift in Sources */,
 				29AB39A41C22A03800247C70 /* TestViewController.swift in Sources */,
