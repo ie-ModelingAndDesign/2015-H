@@ -78,8 +78,7 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
   */
   func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
     
-    let app:AppDelegate =
-    (UIApplication.sharedApplication().delegate as! AppDelegate)
+    let app:AppDelegate = (UIApplication.sharedApplication().delegate as! AppDelegate)
     myItems[0] = app.globalStrings01!
 
     
@@ -99,8 +98,7 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
   Cellが選択された際に呼び出されるデリゲートメソッド.
   */
   func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-    print("Num: \(indexPath.row)")
-    print("Value: \(myItems[indexPath.row])")
+    popupview("\(myItems[indexPath.row])")
   }
 
   
@@ -183,7 +181,6 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     func close(){
         self.popup.hidden = true
-        
     }
 
 }
