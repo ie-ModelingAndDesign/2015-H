@@ -13,21 +13,26 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
+  
+  var navigationController: UINavigationController?
+  
+  var globalStrings01:String? = nil
 
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     // Override point for customization after application launch.
     
     // ViewControllerを生成する.
-//    let myFirstViewController: StartMenuView = StartMenuView()
-    let myFirstViewController: StartMenuView = StartMenuView()
+    let viewController: StartMenuView = StartMenuView()
+    
+    
+    navigationController = UINavigationController(rootViewController: viewController)
     
     // UIWindowを生成する.
     self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
     
     // rootViewControllerにNatigationControllerを設定する.
-    self.window?.rootViewController = myFirstViewController
-    
+    self.window?.rootViewController = navigationController
     self.window?.makeKeyAndVisible()
     
     return true
