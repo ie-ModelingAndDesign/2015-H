@@ -22,7 +22,9 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
   
   
   private var myTableView: UITableView!
-  
+//    private var popup: UIView!
+     var closebtn: UIButton!
+     var copybtn: UIButton!
     let deleg : AppDelegate = UIApplication.sharedApplication().delegate as!AppDelegate
     var popup = UIView()
     var sorce = UITextView()
@@ -124,7 +126,7 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
         
         popup.hidden = false
         
-        popup = UIView(frame: CGRectMake(w / 2 - popupw / 2, h / 2 - popuph / 2, popupw, popuph))
+        popup.frame = CGRectMake(w / 2 - popupw / 2, h / 2 - popuph / 2, popupw, popuph)
         popup.backgroundColor = UIColor(red: 0.980, green: 0.980, blue: 0.824, alpha: 1) //拾ってきた
         popup.layer.borderColor = UIColor(red: 0.941, green: 0.502, blue: 0.502, alpha: 1).CGColor //CGColorは肩合わせ
         popup.layer.borderWidth = 8 //枠の幅
@@ -134,7 +136,7 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
         let sorcew = popupw - 30
         let sorceh =  popuph / 2 + 20
         
-        sorce = UITextView(frame: CGRectMake(popupw / 2 - sorcew / 2, 20, sorcew, sorceh))
+        sorce.frame = CGRectMake(popupw / 2 - sorcew / 2, 20, sorcew, sorceh)
         sorce.backgroundColor = UIColor.whiteColor()
         sorce.layer.cornerRadius = 7 //丸くする
         sorce.text = i
@@ -143,6 +145,7 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
         
         let copyw = popupw - 30
         let copyh = popuph / 6 - 10
+        
         
         let copybtn = UIButton(frame: CGRectMake(popupw / 2 - copyw / 2, sorce.frame.origin.y + sorceh + 6, copyw, copyh))
         copybtn.backgroundColor = UIColor(red: 0.627, green: 0.322, blue: 0.176, alpha: 1)
@@ -154,6 +157,7 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
         //テキストの色
         copybtn.setTitleColor(UIColor.whiteColor(), forState: .Normal)
         copybtn.addTarget(self, action: "cp", forControlEvents: .TouchDown)
+        
         
         popup.addSubview(copybtn)
         
@@ -174,11 +178,31 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
         popup.addSubview(closebtn)
     }
     
+    
     func cp(){
+        
         let rev = sorce.text
         UIPasteboard.generalPasteboard().string = rev
     }
     
+    
+//    internal func close(sender: UIButton) {
+//        if sender == closebtn{
+//            self.popup.hidden = true
+//        }
+//    }
+//    
+
+//internal func onClickMyButton(sender: UIButton) {
+//    
+//    if sender == myWindowButtoncl{
+//        myWindow.hidden = true
+//    }
+//    else if sender == myButton {
+//        Popup()
+//    }
+//}
+
     func close(){
         self.popup.hidden = true
     }
