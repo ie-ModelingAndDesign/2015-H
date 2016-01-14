@@ -12,7 +12,6 @@
 		29AB39A41C22A03800247C70 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AB39A31C22A03800247C70 /* TestViewController.swift */; };
 		29AB39A61C22A31700247C70 /* RealmObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AB39A51C22A31700247C70 /* RealmObjects.swift */; };
 		29AB39A81C22B0CF00247C70 /* json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AB39A71C22B0CF00247C70 /* json.swift */; };
-		29AC4A9F1C3B83BA00BF3624 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AC4A9E1C3B83BA00BF3624 /* PopupView.swift */; };
 		29C263A51C087C470091DDD2 /* CopyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C263A41C087C470091DDD2 /* CopyView.swift */; };
 		61177E861C2C2A0100631264 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61177E851C2C2A0100631264 /* MessageView.swift */; };
 		613250541BFD79F000B41BE8 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613250531BFD79F000B41BE8 /* CategoryView.swift */; };
@@ -54,7 +53,6 @@
 		29AB39A31C22A03800247C70 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		29AB39A51C22A31700247C70 /* RealmObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmObjects.swift; sourceTree = "<group>"; };
 		29AB39A71C22B0CF00247C70 /* json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = json.swift; sourceTree = "<group>"; };
-		29AC4A9E1C3B83BA00BF3624 /* PopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
 		29C263A41C087C470091DDD2 /* CopyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopyView.swift; sourceTree = "<group>"; };
 		5B4A24DB504CEFE1071DEEEB /* Pods-Nyusankinmaite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nyusankinmaite.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nyusankinmaite/Pods-Nyusankinmaite.release.xcconfig"; sourceTree = "<group>"; };
 		5F054B8E4381304C9839C22D /* Pods_Nyusankinmaite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nyusankinmaite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,7 +145,6 @@
 				61BC4E4E1BFD73DD005A3BAF /* Assets.xcassets */,
 				61BC4E501BFD73DD005A3BAF /* LaunchScreen.storyboard */,
 				61BC4E531BFD73DD005A3BAF /* Info.plist */,
-				29AC4A9E1C3B83BA00BF3624 /* PopupView.swift */,
 				61BC4E4B1BFD73DD005A3BAF /* Nyusankinmaite.xcdatamodeld */,
 			);
 			path = Nyusankinmaite;
@@ -378,7 +375,6 @@
 				29AB39A61C22A31700247C70 /* RealmObjects.swift in Sources */,
 				29AB39A41C22A03800247C70 /* TestViewController.swift in Sources */,
 				29AB39A81C22B0CF00247C70 /* json.swift in Sources */,
-				29AC4A9F1C3B83BA00BF3624 /* PopupView.swift in Sources */,
 				61BC4E4D1BFD73DD005A3BAF /* Nyusankinmaite.xcdatamodeld in Sources */,
 				61BC4E451BFD73DD005A3BAF /* AppDelegate.swift in Sources */,
 				61BC4E781BFD78EF005A3BAF /* StartMenuView.swift in Sources */,

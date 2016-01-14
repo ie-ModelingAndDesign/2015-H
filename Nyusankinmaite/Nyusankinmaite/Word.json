@@ -1,37 +1,191 @@
 [
-{
-  "cat":1,
-  "jap": "卒業おめでとう！",
-  "eng":"Congratulations on your graduation!",
-},
-{
-   "cat":1,
-   "jap": "最高の思い出をありがとう！",
-   "eng":"Thanks for great memories!"
-},
-{
-  "cat":1,
-  "jap":"君と過ごした日々を忘れない",
-  "eng":"I will never forget the days with you."
-},
-{
-  "cat":1,
-  "jap":"◯◯先生へ",
-  "eng":"Dear Mr./Mrs."
-},
-{
-  "cat":1,
-  "jap":"今まで色々教えてくれてありがとう",
-  "eng":"Thank you for teaching me so many things."
-},
-{
-  "cat":1,
-  "jap":"本当によかったね！",
-  "eng":"I’m so happy for you."
-},
-{
-  "cat":1,
-  "jap":"おめでたいね！",
-  "eng":"That’s great news!"
-}
-]
+ {
+ "cat":1,
+ "jap": "卒業おめでとう！",
+ "eng":"Congratulations on your graduation!",
+ },
+ {
+ "cat":1,
+ "jap": "最高の思い出をありがとう！",
+ "eng":"Thanks for great memories!"
+ },
+ {
+ "cat":1,
+ "jap":"君と過ごした日々を忘れない",
+ "eng":"I will never forget the days with you."
+ },
+ {
+ "cat":1,
+ "jap":"◯◯先生へ",
+ "eng":"Dear Mr./Mrs."
+ },
+ {
+ "cat":1,
+ "jap":"今まで色々教えてくれてありがとう",
+ "eng":"Thank you for teaching me so many things."
+ },
+ {
+ "cat":1,
+ "jap":"本当によかったね！",
+ "eng":"I’m so happy for you."
+ },
+ {
+ "cat":1,
+ "jap":"おめでたいね！",
+ "eng":"That’s great news!"
+ },
+ {
+ "cat":1,
+ "jap":"友と過ごした日々を忘れないよ",
+ "eng":"I never forget the time with my friends."
+ },
+ {
+ "cat":3,
+ "jap":"愛を込めて誕生日おめでとう！",
+ "eng":"Happy birthday with lots of love."
+ },
+ {
+ "cat":3,
+ "jap":"誕生日おめでとう！これからも幸せな一年を！",
+ "eng":"Happy birthday and a very happy year to come!"
+ },
+ {
+ "cat":3,
+ "jap":"素晴らしい誕生日を心よりお祈りしています",
+ "eng":"Warmest wishes for a happy birthday."
+ },
+ {
+ "cat":3,
+ "jap":"今日は君のお母さんに感謝する日だ",
+ "eng":"Today is thankful day for your mother."
+ },
+ {
+ "cat":3,
+ "jap":"遅ればせながらお誕生日おめでとう！",
+ "eng":"Happy belated birthday!"
+ },
+ {
+ "cat":3,
+ "jap":"生まれてきてくれてありがとう",
+ "eng":"Thanks for bring me to this world."
+ },
+ {
+ "cat":3,
+ "jap":"お誕生日おめでとう！ハッピーな一年になりますように",
+ "eng":"Haooy birthday to you!
+ Have a great year!"
+ },
+ {
+ "cat":2,
+ "jap":"ここが君の母校となる学び舎さ",
+ "eng":"It will be your alma mater here."
+ },
+ {
+ "cat":2,
+ "jap":"◯◯へ 入学おめでとう。お祝いに心ばかりの品を送ります。勉強に運動に、力一杯頑張ってください。",
+ "eng":"Dear,◯◯
+ Congratulation on getting into your new scool.
+ Please accept a small present in celebration of your pass.
+ Keep uo your studying and sports."
+ },
+ {
+ "cat":2,
+ "jap":"入学おめでとう！",
+ "eng":"Congratulation on getting into your new scool!"
+ },
+ {
+ "cat":6,
+ "jap":"やぁ！",
+ "eng":"HI!"
+ },
+ {
+ "cat":6,
+ "jap":"いい一日を！",
+ "eng":"Have a good(nice) day!"
+ },
+ {
+ "cat":6,
+ "jap":"また明日！",
+ "eng":"See you tomorrow!"
+ },
+ {
+ "cat":6,
+ "jap":"またね！",
+ "eng":"See you again!"
+ },
+ {
+ "cat":6,
+ "jap":"久しぶり！",
+ "eng":"Long time no see!"
+ },
+ {
+ "cat":6,
+ "jap":"連絡するよ",
+ "eng":"I call you."
+ },
+ {
+ "cat":6,
+ "jap":"お大事に or 気をつけてね",
+ "eng":"Take care of yourself."
+ },
+ {
+ "cat":8,
+ "jap":"いくら払えばいい？",
+ "eng":"How much do I owe you?"
+ },
+ {
+ "cat":15,
+ "jap":"楽しい時間だったよ",
+ "eng":"I had a good time."
+ },
+ {
+ "cat":16,
+ "jap":"笑えないよ",
+ "eng":"That’s not funny."
+ },
+ {
+ "cat":16,
+ "jap":"君には失望したよ",
+ "eng":"I'm disappointed in you."
+ },
+ {
+ "cat":19,
+ "jap":"君のことが好きです",
+ "eng":"I do like you."
+ },
+ {
+ "cat":20,
+ "jap":"ほどほど飲む人です",
+ "eng":"I'm just a social drinker."
+ },
+ {
+ "cat":10,
+ "jap":"一期一会",
+ "eng":"a once in lifetime chance."
+ },
+ {
+ "cat":10,
+ "jap":"本当にありがとう！",
+ "eng":"Thank you very much!!!"
+ },
+ {
+ "cat":4,
+ "jap":"メリークリスマス",
+ "eng":"Merry Christmas!!!"
+ },
+ {
+ "cat":4,
+ "jap":"メリークリスマス",
+ "eng":"Merry X'mas!!!"
+ },
+ {
+ "cat":5,
+ "jap":"ハッピーバレンタイン！",
+ "eng":"Happy Valentaine's day!!!"
+ },
+ {
+ "cat":7,
+ "jap":"遊びに行こう！",
+ "eng":"Let's go out!"
+ }
+ ]
