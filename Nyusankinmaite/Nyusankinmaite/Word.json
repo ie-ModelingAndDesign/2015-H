@@ -40,6 +40,26 @@
  "eng":"I never forget the time with my friends."
  },
  {
+ "cat":2,
+ "jap":"ここが君の母校となる学び舎さ",
+ "eng":"It will be your alma mater here."
+ },
+ {
+ "cat":2,
+ "jap":"◯◯へ 入学おめでとう。お祝いに心ばかりの品を送ります。勉強に運動に、力一杯頑張ってください。",
+ "eng":"Dear,◯◯ Congratulation on getting into your new scool.Please accept a small present in celebration of your pass. Keep up your studying and sports."
+ },
+ {
+ "cat":2,
+ "jap":"入学おめでとう！",
+ "eng":"Congratulation on getting into your new scool!"
+ },
+ {
+ "cat":3,
+ "jap":"お母さん、産んでくれてありがとう",
+ "eng":"Dear,mother.Thank you to give birth to me."
+ },
+ {
  "cat":3,
  "jap":"愛を込めて誕生日おめでとう！",
  "eng":"Happy birthday with lots of love."
@@ -72,26 +92,42 @@
  {
  "cat":3,
  "jap":"お誕生日おめでとう！ハッピーな一年になりますように",
- "eng":"Haooy birthday to you!
- Have a great year!"
+ "eng":"Happy birthday to you!Have a great year!"
  },
  {
- "cat":2,
- "jap":"ここが君の母校となる学び舎さ",
- "eng":"It will be your alma mater here."
+ "cat":4,
+ "jap":"メリークリスマス",
+ "eng":"Merry Christmas!!!"
  },
  {
- "cat":2,
- "jap":"◯◯へ 入学おめでとう。お祝いに心ばかりの品を送ります。勉強に運動に、力一杯頑張ってください。",
- "eng":"Dear,◯◯
- Congratulation on getting into your new scool.
- Please accept a small present in celebration of your pass.
- Keep uo your studying and sports."
+ "cat":4,
+ "jap":"メリークリスマス",
+ "eng":"Merry X'mas!!!"
  },
  {
- "cat":2,
- "jap":"入学おめでとう！",
- "eng":"Congratulation on getting into your new scool!"
+ "cat":5,
+ "jap":"ハッピーバレンタイン！",
+ "eng":"Happy Valentaine's day!!!"
+ },
+ {
+ "cat":5,
+ "jap":"私の愛を受け取って",
+ "eng":"Please accept my love for you."
+ },
+ {
+ "cat":5,
+ "jap":"これからもよろしく",
+ "eng":"I'm looking forward to our future together."
+ },
+ {
+ "cat":5,
+ "jap":"君への愛の印です",
+ "eng":"It's a sign of love for you."
+ },
+ {
+ "cat":5,
+ "jap":"頑張って作ったから食べてね！",
+ "eng":"I made chocolate for you with all my heart. Please try one!"
  },
  {
  "cat":6,
@@ -129,9 +165,29 @@
  "eng":"Take care of yourself."
  },
  {
+ "cat":7,
+ "jap":"遊びに行こう！",
+ "eng":"Let's go out!"
+ },
+ {
+ "cat":7,
+ "jap":"一緒におどりませんか？",
+ "eng":"Shall we Dance?"
+ },
+ {
  "cat":8,
  "jap":"いくら払えばいい？",
  "eng":"How much do I owe you?"
+ },
+ {
+ "cat":10,
+ "jap":"一期一会",
+ "eng":"a once in lifetime chance."
+ },
+ {
+ "cat":10,
+ "jap":"本当にありがとう！",
+ "eng":"Thank you very much!!!"
  },
  {
  "cat":15,
@@ -149,43 +205,43 @@
  "eng":"I'm disappointed in you."
  },
  {
+ "cat":16,
+ "jap":"お口にチャック！",
+ "eng":"Zip the lip!"
+ },
+ {
+ "cat":16,
+ "jap":"冗談はよして",
+ "eng":"Don't be silly!"
+ },
+ {
+ "cat":17,
+ "jap":"よく似合っているよ",
+ "eng":"I think it looks good on you."
+ },
+ {
+ "cat":18,
+ "jap":"明けましておめでとう！",
+ "eng":"Happy new year!!!"
+ },
+ {
+ "cat":18,
+ "jap":"良い1年になりますように",
+ "eng":"I wish you all the best for this year."
+ },
+ {
  "cat":19,
  "jap":"君のことが好きです",
  "eng":"I do like you."
  },
  {
+ "cat":19,
+ "jap":"私と付き合ってください",
+ "eng":"I want you to go out with me."
+ },
+ {
  "cat":20,
  "jap":"ほどほど飲む人です",
  "eng":"I'm just a social drinker."
- },
- {
- "cat":10,
- "jap":"一期一会",
- "eng":"a once in lifetime chance."
- },
- {
- "cat":10,
- "jap":"本当にありがとう！",
- "eng":"Thank you very much!!!"
- },
- {
- "cat":4,
- "jap":"メリークリスマス",
- "eng":"Merry Christmas!!!"
- },
- {
- "cat":4,
- "jap":"メリークリスマス",
- "eng":"Merry X'mas!!!"
- },
- {
- "cat":5,
- "jap":"ハッピーバレンタイン！",
- "eng":"Happy Valentaine's day!!!"
- },
- {
- "cat":7,
- "jap":"遊びに行こう！",
- "eng":"Let's go out!"
  }
  ]
