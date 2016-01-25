@@ -32,8 +32,21 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+    let realm = try! Realm()
     self.view.backgroundColor = UIColor.whiteColor()
+    
+//    背景
+//    let myImageView: UIImageView = UIImageView()
+    //        myImageView.image = myImage
+    //        myImageView.frame = CGRectMake(0, 0, self.view.frame.width, self.view.frame.height)
+    //        self.view.addSubview(myImageView)
+    
+    //
+    //        let backgroundImage = UIImage(named: "hoge.jpg")!
+    //        self.view.backgroundColor = UIColor(patternImage: backgroundImage)
+    ////
+    //        
+
     
     
     // Status Barの高さを取得する.
@@ -175,12 +188,12 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
         //テキストの色
         closebtn.setTitleColor(UIColor.whiteColor(), forState: .Normal)
         closebtn.addTarget(self, action: "close", forControlEvents: .TouchDown)
+        closebtn.setTitleColor(UIColor.brownColor(), forState: .Highlighted)
         popup.addSubview(closebtn)
     }
     
     
     func cp(){
-        
         let rev = sorce.text
         UIPasteboard.generalPasteboard().string = rev
     }
