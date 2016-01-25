@@ -19,7 +19,7 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
   // table の値
     
   var myItems = ["aaa","bbb","ccc"]
-  
+    
   
   private var myTableView: UITableView!
 //    private var popup: UIView!
@@ -28,14 +28,16 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
     let deleg : AppDelegate = UIApplication.sharedApplication().delegate as!AppDelegate
     var popup = UIView()
     var sorce = UITextView()
-
+    
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    let realm = try! Realm()
+    
+   
     self.view.backgroundColor = UIColor.whiteColor()
     
 //    背景
+    
 //    let myImageView: UIImageView = UIImageView()
     //        myImageView.image = myImage
     //        myImageView.frame = CGRectMake(0, 0, self.view.frame.width, self.view.frame.height)
@@ -84,7 +86,11 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
   (実装必須)
   */
   func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return myItems.count
+    
+    let realm = try! Realm()
+    let app:AppDelegate = (UIApplication.sharedApplication().delegate as! AppDelegate)
+    let sentence = realm.objects(Sentence).filter("cat == \(app.globalcategory)")
+    return sentence.count
   }
   
   /*
@@ -93,7 +99,12 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
   */
   func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
     
+   
+    let realm = try! Realm()
     let app:AppDelegate = (UIApplication.sharedApplication().delegate as! AppDelegate)
+    let sentence = realm.objects(Sentence).filter("cat == \(app.globalcategory)")
+    
+    
     myItems[0] = app.globalStrings01!
 
     
@@ -101,7 +112,7 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
     let cell = tableView.dequeueReusableCellWithIdentifier("MyCell", forIndexPath: indexPath)
     
     // Cellに値を設定する.
-    cell.textLabel!.text = "\(myItems[indexPath.row])"
+    cell.textLabel!.text = "\(sentence[indexPath.row].jap)"
     
     return cell
   }
@@ -113,7 +124,10 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
   Cellが選択された際に呼び出されるデリゲートメソッド.
   */
   func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-    popupview("\(myItems[indexPath.row])")
+    let realm = try! Realm()
+    let app:AppDelegate = (UIApplication.sharedApplication().delegate as! AppDelegate)
+    let sentence = realm.objects(Sentence).filter("cat == \(app.globalcategory)")
+    popupview("\(sentence[indexPath.row].eng)")
   }
 
   

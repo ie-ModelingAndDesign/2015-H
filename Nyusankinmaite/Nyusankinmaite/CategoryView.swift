@@ -6,6 +6,7 @@
 //  Copyright © 2015 Ryuki. All rights reserved.
 //
 import UIKit
+import RealmSwift
 
 
 
@@ -14,7 +15,7 @@ class CategoryView: UIViewController,UITableViewDelegate,UITableViewDataSource {
   var leftBarButton: UIBarButtonItem!
   
   // table の設定
-  private let myItems: NSArray = ["TEST1", "TEST2", "TEST3"]
+  private let myItems: NSArray = ["卒業", "入学", "誕生日","クリスマス","バレンタイン","挨拶","誘い","勘定","志願・希望","感謝","謝罪","寂しい","嬉しい","悲しい","楽しい","怒り","褒め言葉","お正月","告白","その他","ホワイトデー","愛と伝える","励まし",]
   private var myTableView: UITableView!
   
   
@@ -89,6 +90,7 @@ class CategoryView: UIViewController,UITableViewDelegate,UITableViewDataSource {
     let selCategory = "\(myItems[indexPath.row])"
     let app:AppDelegate = (UIApplication.sharedApplication().delegate as! AppDelegate)
     app.globalStrings01 = selCategory
+    app.globalcategory = indexPath.row + 1
     self.navigationController?.pushViewController(Messagepage, animated: true)
   }
   

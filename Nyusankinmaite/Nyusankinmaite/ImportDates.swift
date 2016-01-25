@@ -21,6 +21,7 @@ class ImportDates {
     func run() {
         let wordPath: String = NSBundle.mainBundle().pathForResource("Word", ofType: "json")!
         var i = 0
+        let realm = try! Realm()
         if let wordData = NSData(contentsOfFile: wordPath) {
             let json = JSON.init(data: wordData)
             for j in json {
@@ -29,6 +30,11 @@ class ImportDates {
                 insData.cat = j.1["cat"].asInt!
                 insData.eng = j.1["eng"].asString!
                 insData.jap = j.1["jap"].asString!
+                insData.id = i
+                
+                try! realm.write({
+                    realm.add(insData)
+                })
             }
         }
     }
