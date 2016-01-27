@@ -5,6 +5,7 @@ use_frameworks!
 
 target 'Nyusankinmaite' do
   pod 'RealmSwift'
+  pod 'SwiftyJSON', :git => "https://github.com/SwiftyJSON/SwiftyJSON.git"
 end
 
 target 'NyusankinmaiteTests' do

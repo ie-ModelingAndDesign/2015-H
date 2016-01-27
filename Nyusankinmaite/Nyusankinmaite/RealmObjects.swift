@@ -19,3 +19,12 @@ class Person: Object {
     dynamic var id: Int = 0
     dynamic var name: String = ""
 }
+
+
+class Sentence :Object {
+    dynamic var id: Int = 0
+    dynamic var cat: Int = 0
+    dynamic var jap: String = ""
+    dynamic var eng: String = ""
+    
+}

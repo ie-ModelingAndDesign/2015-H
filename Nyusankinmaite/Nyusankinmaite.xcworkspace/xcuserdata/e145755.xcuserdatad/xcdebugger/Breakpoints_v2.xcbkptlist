@@ -2,4 +2,287 @@
 <Bucket
    type = "0"
    version = "2.0">
+<<<<<<< HEAD
+=======
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Nyusankinmaite/RealmObjects.swift"
+            timestampString = "472558288.181059"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "Dog"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nyusankinmaite.Dog.owner.setter : Swift.Optional&lt;Nyusankinmaite.Person&gt;"
+                  moduleName = "Nyusankinmaite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/RealmObjects.swift"
+                  timestampString = "472919575.528193"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nyusankinmaite.Dog.owner.materializeForSet : Swift.Optional&lt;Nyusankinmaite.Person&gt;"
+                  moduleName = "Nyusankinmaite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/RealmObjects.swift"
+                  timestampString = "472919575.52842"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nyusankinmaite.Dog.init (Nyusankinmaite.Dog.Type)() -&gt; Nyusankinmaite.Dog"
+                  moduleName = "Nyusankinmaite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/RealmObjects.swift"
+                  timestampString = "472919575.528633"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nyusankinmaite.Dog.init (Nyusankinmaite.Dog.Type)(value : Swift.AnyObject) -&gt; Nyusankinmaite.Dog"
+                  moduleName = "Nyusankinmaite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/RealmObjects.swift"
+                  timestampString = "472919575.528866"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "105">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nyusankinmaite.Dog.init (Nyusankinmaite.Dog.Type)(realm : __ObjC.RLMRealm, schema : __ObjC.RLMObjectSchema) -&gt; Nyusankinmaite.Dog"
+                  moduleName = "Nyusankinmaite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/RealmObjects.swift"
+                  timestampString = "472919575.529099"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nyusankinmaite.Dog.init (Nyusankinmaite.Dog.Type)(value : Swift.AnyObject, schema : __ObjC.RLMSchema) -&gt; Nyusankinmaite.Dog"
+                  moduleName = "Nyusankinmaite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/RealmObjects.swift"
+                  timestampString = "472919575.529406"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "114">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Nyusankinmaite/CategoryView.swift"
+            timestampString = "472690420.545442"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "CategoryView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nyusankinmaite.CategoryView.__deallocating_deinit"
+                  moduleName = "Nyusankinmaite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/CategoryView.swift"
+                  timestampString = "472650915.761231"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nyusankinmaite.CategoryView.init (Nyusankinmaite.CategoryView.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Nyusankinmaite.CategoryView&gt;"
+                  moduleName = "Nyusankinmaite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/CategoryView.swift"
+                  timestampString = "472650915.76198"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Nyusankinmaite/CategoryView.swift"
+            timestampString = "472690420.545442"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "CategoryView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nyusankinmaite.CategoryView.leftBarButton.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIBarButtonItem&gt;"
+                  moduleName = "Nyusankinmaite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/CategoryView.swift"
+                  timestampString = "472650915.766518"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nyusankinmaite.CategoryView.leftBarButton.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIBarButtonItem&gt;"
+                  moduleName = "Nyusankinmaite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/CategoryView.swift"
+                  timestampString = "472650915.767076"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nyusankinmaite.CategoryView.init (Nyusankinmaite.CategoryView.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Nyusankinmaite.CategoryView"
+                  moduleName = "Nyusankinmaite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/CategoryView.swift"
+                  timestampString = "472650915.767429"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nyusankinmaite.CategoryView.init (Nyusankinmaite.CategoryView.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Nyusankinmaite.CategoryView&gt;"
+                  moduleName = "Nyusankinmaite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/CategoryView.swift"
+                  timestampString = "472650915.767559"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x10f149d39">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  usesParentBreakpointCondition = "Yes"
+                  offsetFromSymbolStart = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.AddressBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            symbolName = "*0x10f149d35">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Nyusankinmaite.CategoryView.init (Nyusankinmaite.CategoryView.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Nyusankinmaite.CategoryView"
+                  moduleName = "Nyusankinmaite"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/CategoryView.swift"
+                  timestampString = "472650542.913448"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "85">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+>>>>>>> DatebaseFunctions
 </Bucket>

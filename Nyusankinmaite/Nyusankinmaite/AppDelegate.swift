@@ -13,10 +13,11 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
-  
+  var category : Int = 0
   var navigationController: UINavigationController?
   
   var globalStrings01:String? = nil
+  var globalcategory:Int = 0
 
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
@@ -25,6 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // ViewControllerを生成する.
     let viewController: StartMenuView = StartMenuView()
     
+//    ImportDates().run()
     
     navigationController = UINavigationController(rootViewController: viewController)
     
