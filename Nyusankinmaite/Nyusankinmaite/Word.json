@@ -161,8 +161,23 @@
  },
  {
  "cat":6,
+ "jap":"もう行かなくちゃ",
+ "eng":"I have to go now."
+ },
+ {
+ "cat":6,
+ "jap":"何も聞かないでください",
+ "eng":"Please do not ask."
+ },
+ {
+ "cat":6,
  "jap":"お大事に or 気をつけてね",
  "eng":"Take care of yourself."
+ },
+ {
+ "cat":6,
+ "jap":"またいつか会って話したいね",
+ "eng":"I want some time to see you and speak to you."
  },
  {
  "cat":7,
