@@ -61,6 +61,11 @@
  },
  {
  "cat":3,
+ "jap":"○○さん。 お誕生日おめでとうございます。 この一年が○○さんにとって、 たくさんの幸福と可能性に満ちていますように。",
+ "eng":"Dear ◯◯. Happy birthday for you. Hope this year brings ◯◯ spend days of many happiness and possibility."
+ },
+ {
+ "cat":3,
  "jap":"愛を込めて誕生日おめでとう！",
  "eng":"Happy birthday with lots of love."
  },
