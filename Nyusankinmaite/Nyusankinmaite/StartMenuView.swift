@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import RealmSwift
 
 class StartMenuView: UIViewController {
   
@@ -14,6 +15,9 @@ class StartMenuView: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    print(Realm.defaultPath)
+    
     
     self.navigationItem.title = "Top Page"
     
