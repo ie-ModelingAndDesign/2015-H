@@ -96,6 +96,11 @@
  },
  {
  "cat":3,
+ "jap":"愛を込めて、誕生日おめでとう!",
+ "eng":"Happy birthday with lots of love."
+ },
+ {
+ "cat":3,
  "jap":"お誕生日おめでとう！ハッピーな一年になりますように",
  "eng":"Happy birthday to you!Have a great year!"
  },
@@ -108,6 +113,21 @@
  "cat":4,
  "jap":"メリークリスマス",
  "eng":"Merry X'mas!!!"
+ },
+ {
+ "cat":4,
+ "jap":"あなたの家族に平和と愛に満ちたクリスマスが訪れますように。",
+ "eng":"Wishing your family peace and love at Christmas and always."
+ },
+ {
+ "cat":4,
+ "jap":"あなたのクリスマスの願い事がかないますように",
+ "eng":"May your Christmas wishes come true!"
+ },
+ {
+ "cat":4,
+ "jap":"クリスマスの季節の特別に素敵な瞬間を楽しんでください！",
+ "eng":"May you enjoy the special moments of the Christmas Season!"
  },
  {
  "cat":5,
@@ -268,5 +288,75 @@
  "cat":21,
  "jap":"ハッピーホワイトデー",
  "eng":"Happy White Day!!!"
+ },
+ {
+ "cat":21,
+ "jap":"チョコレートが美味くて、見直したよ",
+ "eng":"I was actually impressed , your chocolate was good"
+ },
+ {
+ "cat":21,
+ "jap":"ホワイトデーは英語でも見に行こうか",
+ "eng":"Do you want go to movies on White Day?"
+ },
+ {
+ "cat":21,
+ "jap":"ホワイトデーは外食しようか",
+ "eng":"Let's eat out on White Day."
+ },
+ {
+ "cat":21,
+ "jap":"あなたのチョコレート意外に美味しかったわ",
+ "eng":"Your chocolate was better than I expected."
+ },
+ {
+ "cat":22,
+ "jap":"君とずっと一緒にいたい",
+ "eng":"I want to be with you forever."
+ },
+ {
+ "cat":22,
+ "jap":"君を見つめることに乾杯、子ヤギ(かわい子)ちゃん",
+ "eng":"Here's looking at you, kid."
+ },
+ {
+ "cat":22,
+ "jap":"これからも君の隣で笑っていたい",
+ "eng":"I want to be smiling beside you."
+ },
+ {
+ "cat":22,
+ "jap":"君の笑顔をいつまでも見たいんだ",
+ "eng":"I want to see you smile forever."
+ },
+ {
+ "cat":22,
+ "jap":"君のことを考えながらプレゼントを選んだよ",
+ "eng":"I was thinking of you when I chose the present."
+ },
+ {
+ "cat":22,
+ "jap":"お風呂にバラを浮かべてシャンパンを飲もう",
+ "eng":"Let's have some champagne in a rose petal bath."
+ },
+ {
+ "cat":23,
+ "jap":"",
+ "eng":""
+ },
+ {
+ "cat":23,
+ "jap":"",
+ "eng":""
+ },
+ {
+ "cat":23,
+ "jap":"",
+ "eng":""
+ },
+ {
+ "cat":23,
+ "jap":"",
+ "eng":""
  }
  ]
