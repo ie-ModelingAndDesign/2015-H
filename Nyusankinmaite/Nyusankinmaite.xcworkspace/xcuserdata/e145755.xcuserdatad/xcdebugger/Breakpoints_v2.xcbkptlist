@@ -2,8 +2,6 @@
 <Bucket
    type = "0"
    version = "2.0">
-<<<<<<< HEAD
-=======
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
@@ -28,7 +26,7 @@
                   moduleName = "Nyusankinmaite"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/RealmObjects.swift"
-                  timestampString = "472919575.528193"
+                  timestampString = "476856063.823824"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -43,7 +41,7 @@
                   moduleName = "Nyusankinmaite"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/RealmObjects.swift"
-                  timestampString = "472919575.52842"
+                  timestampString = "476856063.824025"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -58,7 +56,7 @@
                   moduleName = "Nyusankinmaite"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/RealmObjects.swift"
-                  timestampString = "472919575.528633"
+                  timestampString = "476856063.824238"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -73,7 +71,7 @@
                   moduleName = "Nyusankinmaite"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/RealmObjects.swift"
-                  timestampString = "472919575.528866"
+                  timestampString = "476856063.824417"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -88,7 +86,7 @@
                   moduleName = "Nyusankinmaite"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/RealmObjects.swift"
-                  timestampString = "472919575.529099"
+                  timestampString = "476856063.824658"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -103,7 +101,7 @@
                   moduleName = "Nyusankinmaite"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/e145755/Desktop/2015-H/Nyusankinmaite/Nyusankinmaite/RealmObjects.swift"
-                  timestampString = "472919575.529406"
+                  timestampString = "476856063.824934"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "15"
@@ -284,5 +282,4 @@
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
->>>>>>> DatebaseFunctions
 </Bucket>
