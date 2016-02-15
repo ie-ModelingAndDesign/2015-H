@@ -18,12 +18,13 @@ class CategoryView: UIViewController,UITableViewDelegate,UITableViewDataSource {
   private let myItems: NSArray = ["卒業", "入学", "誕生日","クリスマス","バレンタイン","挨拶","誘い","勘定","志願・希望","感謝","謝罪","寂しい","嬉しい","悲しい","楽しい","怒り","褒め言葉","お正月","告白","その他","ホワイトデー","愛と伝える","励まし",]
   private var myTableView: UITableView!
   
+    
   
   override func viewDidLoad() {
     super.viewDidLoad()
     
     // 背景を white に設定
-    self.view.backgroundColor = UIColor.whiteColor()
+    self.view.backgroundColor = UIColor(red:(255.0)/255.0, green:(240.0)/255.0, blue: (245.0)/255.0, alpha:1)
     
 
     
@@ -62,6 +63,7 @@ class CategoryView: UIViewController,UITableViewDelegate,UITableViewDataSource {
   (実装必須)
   */
   func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+     self.myTableView.backgroundColor = UIColor(red: 0.980, green: 0.980, blue: 0.824, alpha: 0.2)
     return myItems.count
   }
   
@@ -76,6 +78,12 @@ class CategoryView: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     // Cellに値を設定する.
     cell.textLabel!.text = "\(myItems[indexPath.row])"
+    cell.backgroundColor = UIColor(red: 0.980, green: 0.980, blue: 0.824, alpha: 0.1)
+    // 選択された時の背景色
+    var cellSelectedBgView = UIView()
+    cellSelectedBgView.backgroundColor = UIColor(red:(240.0)/255.0, green: (128.0)/255.0, blue: (128.0)/255.0, alpha: 0.5)
+    cell.selectedBackgroundView = cellSelectedBgView
+
     
     return cell
   }

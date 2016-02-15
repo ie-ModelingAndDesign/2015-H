@@ -32,9 +32,9 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+
    
-    self.view.backgroundColor = UIColor.whiteColor()
+    self.view.backgroundColor = UIColor(red:(255.0)/255.0, green:(240.0)/255.0, blue: (245.0)/255.0, alpha:1) //一番上
     
 //    背景
     
@@ -60,7 +60,7 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     // TableViewの生成する(status barの高さ分ずらして表示).
     myTableView = UITableView(frame: CGRect(x: 0, y: barHeight, width: displayWidth, height: displayHeight - barHeight))
-    
+
     
     // Cell名の登録をおこなう.
     myTableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "MyCell")
@@ -86,7 +86,8 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
   (実装必須)
   */
   func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    
+    self.myTableView.backgroundColor = UIColor(red: 0.980, green: 0.980, blue: 0.824, alpha: 0.2)
+   // self.myTableView.backgroundColor = UIColor(red: 0.941, green: 0.502, blue: 0.502, alpha: 1).CGColor
     let realm = try! Realm()
     let app:AppDelegate = (UIApplication.sharedApplication().delegate as! AppDelegate)
     let sentence = realm.objects(Sentence).filter("cat == \(app.globalcategory)")
@@ -106,13 +107,18 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     
     myItems[0] = app.globalStrings01!
-
-    
-    // 再利用するCellを取得する.
+// 再利用するCellを取得する.
     let cell = tableView.dequeueReusableCellWithIdentifier("MyCell", forIndexPath: indexPath)
-    
+  
     // Cellに値を設定する.
     cell.textLabel!.text = "\(sentence[indexPath.row].jap)"
+    
+    // cell背景色
+    cell.backgroundColor = UIColor(red: 0.980, green: 0.980, blue: 0.824, alpha: 0.1)
+    // 選択された時の背景色
+    var cellSelectedBgView = UIView()
+    cellSelectedBgView.backgroundColor = UIColor(red:(240.0)/255.0, green: (128.0)/255.0, blue: (128.0)/255.0, alpha: 0.5)
+    cell.selectedBackgroundView = cellSelectedBgView
     
     return cell
   }
@@ -156,6 +162,7 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
         popup.frame = CGRectMake(w / 2 - popupw / 2, h / 2 - popuph / 2, popupw, popuph)
         popup.backgroundColor = UIColor(red: 0.980, green: 0.980, blue: 0.824, alpha: 1) //拾ってきた
         popup.layer.borderColor = UIColor(red: 0.941, green: 0.502, blue: 0.502, alpha: 1).CGColor //CGColorは肩合わせ
+        //popup.layer.borderColor = UIColor(red: 0.727, green: 0.322, blue: 0.176, alpha: 1).CGColor
         popup.layer.borderWidth = 8 //枠の幅
         popup.layer.cornerRadius = 20 //丸くする
         self.view.addSubview(popup)
@@ -181,8 +188,11 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
         
         //表示されるテキスト
         copybtn.setTitle("コピー", forState: .Normal)
+        
         //テキストの色
         copybtn.setTitleColor(UIColor.whiteColor(), forState: .Normal)
+       // copybtn.backgroundColor = UIColor(red: (255.0)/255.0, green: (99.0)/255.0, blue: (71.0)/255.0, alpha: 1)
+        copybtn.backgroundColor = UIColor(red: 0.627, green: 0.322, blue: 0.176, alpha: 1)
         copybtn.addTarget(self, action: "cp", forControlEvents: .TouchDown)
         
         
@@ -193,8 +203,8 @@ class MessageView: UIViewController,UITableViewDelegate,UITableViewDataSource {
         
         let closebtn = UIButton(frame: CGRectMake(popupw / 2 - closew / 2, copybtn.frame.origin.y + closeh+4
             , closew, closeh))
-        closebtn.backgroundColor = UIColor(red: 0.627, green: 0.322, blue: 0.176, alpha: 1)
-        
+        closebtn.backgroundColor = UIColor(red: 0.627, green: 0.322, blue: 0.176, alpha: 1) //茶色
+       // closebtn.backgroundColor = UIColor(red: (255.0)/255.0, green: (99.0)/255.0, blue: (71.0)/255.0, alpha: 1)
         closebtn.layer.cornerRadius = 7 //丸くする
         
         //表示されるテキスト
